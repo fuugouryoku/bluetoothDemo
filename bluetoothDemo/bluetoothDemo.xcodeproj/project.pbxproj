@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BC221BE01D8F778F008631DA /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC221BDF1D8F778F008631DA /* CoreBluetooth.framework */; };
+		BC221BE31D8F8268008631DA /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC221BE21D8F8268008631DA /* TableViewCell.m */; };
 		BCE077291D8F6D7D00AE1A39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE077281D8F6D7D00AE1A39 /* main.m */; };
 		BCE0772C1D8F6D7D00AE1A39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE0772B1D8F6D7D00AE1A39 /* AppDelegate.m */; };
 		BCE0772F1D8F6D7D00AE1A39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE0772E1D8F6D7D00AE1A39 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		BC221BDF1D8F778F008631DA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		BC221BE11D8F8268008631DA /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		BC221BE21D8F8268008631DA /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		BCE077241D8F6D7D00AE1A39 /* bluetoothDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluetoothDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE077281D8F6D7D00AE1A39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCE0772A1D8F6D7D00AE1A39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 				BCE077351D8F6D7D00AE1A39 /* LaunchScreen.storyboard */,
 				BCE077381D8F6D7D00AE1A39 /* Info.plist */,
 				BCE077271D8F6D7D00AE1A39 /* Supporting Files */,
+				BC221BE11D8F8268008631DA /* TableViewCell.h */,
+				BC221BE21D8F8268008631DA /* TableViewCell.m */,
 			);
 			path = bluetoothDemo;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 				TargetAttributes = {
 					BCE077231D8F6D7D00AE1A39 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = UDDE96NML8;
 					};
 					BCE0773C1D8F6D7D00AE1A39 = {
 						CreatedOnToolsVersion = 7.2;
@@ -275,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCE0772F1D8F6D7D00AE1A39 /* ViewController.m in Sources */,
+				BC221BE31D8F8268008631DA /* TableViewCell.m in Sources */,
 				BCE0772C1D8F6D7D00AE1A39 /* AppDelegate.m in Sources */,
 				BCE077291D8F6D7D00AE1A39 /* main.m in Sources */,
 			);
@@ -415,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = bluetoothDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.1000phone.bluetoothDemo;
@@ -426,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = bluetoothDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.1000phone.bluetoothDemo;
