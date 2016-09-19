@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  bluetoothDemo
 //
-//  Created by 千锋 on 16/9/19.
+//  Created by  on 16/9/19.
 //  Copyright © 2016年 fuugouryoku. All rights reserved.
 //
 
