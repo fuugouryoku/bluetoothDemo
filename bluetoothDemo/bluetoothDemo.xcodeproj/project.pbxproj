@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC221BE01D8F778F008631DA /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC221BDF1D8F778F008631DA /* CoreBluetooth.framework */; };
 		BCE077291D8F6D7D00AE1A39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE077281D8F6D7D00AE1A39 /* main.m */; };
 		BCE0772C1D8F6D7D00AE1A39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE0772B1D8F6D7D00AE1A39 /* AppDelegate.m */; };
 		BCE0772F1D8F6D7D00AE1A39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE0772E1D8F6D7D00AE1A39 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC221BDF1D8F778F008631DA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		BCE077241D8F6D7D00AE1A39 /* bluetoothDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluetoothDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE077281D8F6D7D00AE1A39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCE0772A1D8F6D7D00AE1A39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC221BE01D8F778F008631DA /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		BCE0771B1D8F6D7D00AE1A39 = {
 			isa = PBXGroup;
 			children = (
+				BC221BDF1D8F778F008631DA /* CoreBluetooth.framework */,
 				BCE077261D8F6D7D00AE1A39 /* bluetoothDemo */,
 				BCE077401D8F6D7D00AE1A39 /* bluetoothDemoTests */,
 				BCE0774B1D8F6D7D00AE1A39 /* bluetoothDemoUITests */,
@@ -496,6 +500,7 @@
 				BCE077531D8F6D7D00AE1A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCE077541D8F6D7D00AE1A39 /* Build configuration list for PBXNativeTarget "bluetoothDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				BCE077561D8F6D7D00AE1A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCE077571D8F6D7D00AE1A39 /* Build configuration list for PBXNativeTarget "bluetoothDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				BCE077591D8F6D7D00AE1A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
